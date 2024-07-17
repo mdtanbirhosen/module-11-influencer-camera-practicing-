@@ -1,34 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
 /* header section starts here */
 
 /* navigation section starts */
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
-.nav-links ul{
+
+.nav-links ul {
     display: flex;
     justify-content: center;
     gap: 34px;
 
 }
-.nav-links ul li{
-    
+
+.nav-links ul li {
+
     list-style: none;
 
 }
-.nav-links ul li a{
+
+.nav-links ul li a {
     text-decoration: none;
+    color: black;
 }
-.humbarger{
+
+.humbarger {
     display: none;
 }
-.header-title{
+
+.header-title {
     font-size: 24px;
     font-weight: bold;
 }
 
 /* navigation section ends */
+/* banner section starts */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 
+.banner-title {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.banner-text {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.banner-button {
+    background-color: rgb(224, 44, 109);
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    color: white;
+    border: none;
+    
+    margin-bottom: 50px;
+}
+.banner-button i{
+    margin-left: 8px;
+}
+
+.banner-image {
+    width: 475px;
+    height: 475px;
+    background-image: url('../images/Circle\ design.svg');
+    background-size: cover;
+}
+.banner-image img{
+    margin: 28px 24px 33px 11px;
+}
+
+/* banner section ends */
 /* header section ends here */
+
+/* main section starts */
+/* sponsors container starts */
+.sponsors-container{
+
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    
+    margin-top: 60px;
+    margin-bottom: 100px; 
+
+}
+
+
+/* sponsors container ends */
+
+/* main section ends */
