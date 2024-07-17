@@ -1,0 +1,34 @@
+/* header section starts here */
+
+/* navigation section starts */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+
+}
+.nav-links ul li{
+    
+    list-style: none;
+
+}
+.nav-links ul li a{
+    text-decoration: none;
+}
+.humbarger{
+    display: none;
+}
+.header-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* navigation section ends */
+
+
+/* header section ends here */

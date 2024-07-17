@@ -1,0 +1,16 @@
+@media screen and (max-width:576px) {
+    body{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .primary-links{
+        display: none;
+    }
+    .humbarger{
+        display: block;
+    }
+    
+.nav-links ul li a{
+    padding-left: 0px;
+}
+}
