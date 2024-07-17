@@ -7,7 +7,7 @@
 }
 
 body {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -55,10 +55,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
 }
 
-
+.banner-text-container{
+    width: 600px;
+}
 .banner-title {
     font-size: 52px;
     font-weight: bold;
